@@ -1,33 +1,25 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Practice</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-
 <body>
 
+  <!-- この下に変数$fruitを書いていきましょう！ -->
   <?php
-  // 'Hello, world!'をechoしてください
-  echo 'Hello, world!';
+    $fruit = 'りんご';
+    echo $fruit;
   ?>
 
   <br>
 
+  <!-- この下に変数$sumを書いていきましょう！ -->
   <?php
-  // 7 * 2をechoしてください
-  echo 7 * 2;
-  ?>
-
-  <br>
-
-  <?php
-  // 8 % 3をechoしてください
-  echo 8 % 3;
+    $sum = 8 + 9;
+    echo $sum
   ?>
 
 </body>
-
 </html>
